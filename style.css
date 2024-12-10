@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  background-color: #011f3f;
+}
+
+#title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 2.5rem;
+  margin: 3%;
+  color: #fef2bf;
+}
+
+.game-buttons {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+/* style for the buttons */
+.button {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 15%;
+  transition: background-color 0.3s;
+}
+
+/* the styling for the game-over trigger */
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.clicked {
+  box-shadow: 0 0 30px white;
+  background-color: rgb(146, 146, 146);
+}
